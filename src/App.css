@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: whitesmoke;
+  font-family: "Manrope", sans-serif;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: yellow;
+  color: black;
+  box-shadow: 0px 1px 5px black;
+}
+
+.header h3 {
+  font-weight: 800;
+}
+
+.circle-logo {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border: 2px solid white;
+  box-shadow: 0px 2px 10px black;
+  border-radius: 50%;
+  margin: 10px;
+}
+.Card-Live {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Card {
+  width: 90%;
+  height: 250px;
+  margin-top: 20px;
+  border: 3px solid yellow;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px grey;
+  background: #2d3436;
+}
+
+.defend h3 {
+  text-align: center;
+}
+
+.defend h3 span {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 3px;
+}
+
+.defend {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.defend .holder {
+  background: #1e272e;
+  width: 85%;
+  text-align: center;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.voting {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.voting h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.voting h3 span {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 3px;
+}
+
+.voting p {
+  text-align: center;
+}
+
+.vote-ref {
+  display: flex;
+  justify-content: center;
+}
+
+.gul-wrap {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.gul {
+  width: 50px;
+  height: 20px;
+  border-radius: 3px;
+  margin: 3px;
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.no-gul-wrap {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.no-gul {
+  width: 50px;
+  height: 20px;
+  border-radius: 3px;
+  margin: 3px;
+  background: linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.vote-prog {
+  width: 90%;
+  height: 40px;
+  font-size: 80%;
+  background: grey; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 3px solid purple;
+  box-shadow: 0px 1px 5px black;
+  border-radius: 40px;
+  display: flex;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  color: whitesmoke;
+}
+
+.guilt {
+  width: 90%;
+  height: 100%;
+  border-radius: 40px 0 0 40px;
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.no-guilt {
+  width: 10%;
+  height: 100%;
+  border-radius: 0 40px 40px 0;
+  background: linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.Button {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+}
+
+.but-gul {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+}
+
+.but-gul:active {
+  background: purple;
+}
+
+.but-no-gul {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  background: linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+}
+
+.but-no-gul:active {
+  background: purple;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer div {
+  width: 85%;
+  border-radius: 5px;
+  border: 2px solid red;
+  padding: 10px;
+  text-align: center;
+}
